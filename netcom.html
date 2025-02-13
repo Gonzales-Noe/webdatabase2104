@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Network Components</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo"><img src="SkyNetics_.png" alt="Logo"></a>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                    <li><a href="about.html"><i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Content-->
+        <div class="content-lang">
+            <h2>Topic 3. Network Components</h2>
+            <br><br>
+            <h3 class="intro">The Harmony of Connectivity</h3>
+                <div class="intro-1">
+                    <img src="networkcom.gif">
+                </div>
+            <p class="sub">Now, think of your digital life as a grand orchestra, and network components are the instruments playing in perfect harmony.
+                Transmission media quietly carry data melodies, be it the wired rhythm of Ethernet or the wireless beats of Wi-Fi. 
+                Hardware devices take the spotlight—hubs, switches, routers, and modems performing in unison for flawless connectivity. 
+            <p class="sub">Don't forget the software, the silent conductor guiding the symphony of connectivity and enhancing security measures. 
+                This orchestrated blend transforms your digital experiences into a seamless joy where connectivity and security dance in perfect harmony.</p>
+
+                <!--Essential Network Components-->
+                <br><hr>
+                <h3 class="topic-sub">Essential Network Components</h3>
+                <br>
+                <h4>Transmission Media:</h4>
+                <p class="laman-1">Transmission media form the pathways for data travel in a network, and they come in two primary types:<br>
+                <p class="laman-1">Wired: This includes cables such as the following:<br></p>
+                <table border="1">
+                    <tr>
+                        <td><h5>UTP (Unshielded Twisted Pair) Cable:</h5></td>
+                        <td>
+                            <p class="laman-2">Common and cost-effective</p>
+                            <p class="laman-2">Consists of twisted pairs of wires</p>
+                            <p class="laman-2">Used in Ethernet networks</p>
+                        </td>
+                        <td>
+                            <div class="content-pic2">
+                                <img src="utpcable.jpg" alt="UTP Cable">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Coaxial Cable:</h5></td>
+                        <td>
+                            <p class="laman-2">Two conductors with inner conductor and outer shield</p>
+                            <p class="laman-2">Offers better bandwidth than UTP</p>
+                            <p class="laman-2">Faster data transfer rates and resistance to electromagnetic interference</p>
+                            <p class="laman-2">More expensive than UTP</p>
+                        </td>
+                        <td>
+                            <div class="content-pic2">
+                                <img src="coaxca.png" alt="Coaxial Cable">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Fiber-Optic Cable:</h5></td>
+                        <td>
+                            <p class="laman-2">Immune to electromagnetic interference</p>
+                            <p class="laman-2">Very high bandwidth</p>
+                            <p class="laman-2">Core made of glass or plastic fibers transmitting data using light</p>
+                            <p class="laman-2">Excellent for high-speed data transfer</p>
+                            <p class="laman-2">Can transmit data over longer distances than UTP and coaxial cables</p>
+                        </td>
+                        <td>
+                            <div class="content-pic2">
+                                <img src="fibrca.png" alt="Fiber-Optic Cable">
+                            </div>
+                        </td>
+                    </tr>
+                </table>                
+
+                <h5>UTP Cable Types:</h5>
+                <p class="laman-1">There are seven (7) categories of UTP cables, ranging from Cat 1 to Cat 7. However, the most commonly utilized categories in contemporary networking, particularly in Ethernet, are Cat 5 to Cat 7. Each category have varying data transfer rate suitable on various purposes.</p>
+                <table>
+                    <table border="1">
+                        <tr class="laman-2">
+                          <th>Category</th>
+                          <th>Description</th>
+                          <th>Typical Use</th>
+                          <th>Maximum Speed</th>
+                          <th>Maximum Length</th>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT1</td>
+                          <td>Telephone wire</td>
+                          <td>Telephone services (ISDN, PSTN)</td>
+                          <td>Not suitable for computer network traffic</td>
+                          <td>Varies</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT2</td>
+                          <td>Token Ring networks</td>
+                          <td>Token Ring networks</td>
+                          <td>Up to 4 Mbps</td>
+                          <td>Varies</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT3</td>
+                          <td>Twisted copper wires</td>
+                          <td>Token Ring networks</td>
+                          <td>Up to 10 Mbps</td>
+                          <td>100 meters</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT4</td>
+                          <td>Twisted copper wires</td>
+                          <td>Token Ring networks</td>
+                          <td>Up to 16 Mbps</td>
+                          <td>100 meters</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT5/5e</td>
+                          <td>Twisted copper wires</td>
+                          <td>Computer networks and telephone traffic</td>
+                          <td>Up to 1 Gbps</td>
+                          <td>100 meters</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT6</td>
+                          <td>Twisted copper wires with physical separator</td>
+                          <td>Gigabit Ethernet</td>
+                          <td>Up to 1 Gbps (100 meters), 10 Gbps (55 meters)</td>
+                          <td>100 meters</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT6A</td>
+                          <td>Enhanced CAT6</td>
+                          <td>Gigabit Ethernet with better crosstalk and EMI immunity</td>
+                          <td>Up to 10 Gbps</td>
+                          <td>100 meters</td>
+                        </tr>
+                        <tr class="laman-2">
+                          <td>CAT7</td>
+                          <td>Shielded twisted copper wires with additional cable shield</td>
+                          <td>High-speed networks</td>
+                          <td>Up to 10 Gbps</td>
+                          <td>100 meters</td>
+                        </tr>
+                      </table>
+                </p><br>
+                <p class="laman-1">Wired networks, using cables like Ethernet, offer faster data transfer rates and enhanced security, though they are less flexible due to physical constraints.<br></p>
+                <div class="wifi">
+                    <img src="wifi.gif">
+                </div><p class="laman-1">Wireless: Utilizing radio waves or infrared signals, wireless networks like Wi-Fi and cellular data (4G, 5G) are highly flexible, allowing connections without physical cabling. However, they may have slower data transfer rates and increased vulnerability to interference and security breaches.<br></p>
+                <p class="laman-1">The choice between wired and wireless connections significantly influences network speed, reliability, security, and cost.</p>
+                <br>
+
+                <!--Hardware-->
+                <h4>Hardware</h4>
+                <p class="laman-1">Hardware components in network architecture include:</p>
+                <p class="laman-1">
+                    <table border="1">
+                        <tr>
+                            <td class="content-pic4"><img src="rilrout.jpg" alt="Router"></td>
+                            <td class="content-pic4"><img src="rilswtch.png" alt="Switches"></td>
+                            <td class="content-pic4"><img src="rilhub.png" alt="Hubs"></td>
+                            <td class="content-pic4"><img src="rilserver.jpg" alt="Servers"></td>
+                            <td class="content-pic4"><img src="firewll.png" alt="Firewall"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>Router</h5>
+                                <p class="laman-1">Direct data traffic between networks based on destination IP addresses.</p>
+                            </td>
+                            <td>
+                                <h5>Switches</h5>
+                                <p class="laman-1">Control network traffic within a single network, directing data to specific devices.</p>
+                            </td>
+                            <td>
+                                <h5>Hub</h5>
+                                <p class="laman-1">A hub is the core component of a local area network (LAN); it is also known as a repeater or concentrator. Every device linked to a hub is on the same subnet and receives all data transferred there.</p>
+                            </td>
+                            <td>
+                                <h5>Server</h5>
+                                <p class="laman-1">High-powered computers hosting data and applications accessible by network devices.</p>
+                            </td>
+                            <td>
+                                <h5>Firewall</h5>
+                                <p class="laman-1">Act as security guards, safeguarding the network from unauthorized access and malicious attacks, which can either be hardware or software.</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                <!--Software-->
+                <h4>Software</h4>
+                <p class="laman-1">Various software components contribute to effective network management and security:</p>
+                <p class="laman-1">
+                    <table>
+                    <tr>
+                        <td>
+                            <div class="content-pic3">
+                                <img src="solarwinds.jpg" alt="Network Management Software">
+                            </div>
+                        </td>
+                        <td>
+                            <h5>Network Management Software</h5>
+                            <p class="laman-2">Monitors, manages, and troubleshoots network performance.</p>
+                            <p class="laman-2">Example: SolarWinds Network Performance Monitor, a tool that provides a 
+                                comprehensive view of your network’s performance, including real-time monitoring, 
+                                alerts, and reporting. It also offers advanced features such as network topology 
+                                mapping, device discovery, and network traffic analysis.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="content-pic3">
+                                <img src="watchguard.jpg" alt="Network Security Software">
+                            </div>
+                        </td>
+                        <td>
+                            <h5>Network Security Software</h5>
+                            <p class="laman-2">Ensures user security by detecting and preventing unauthorized access.</p>
+                            <p class="laman-2">Example: WatchGuard Network Security, a network security and firewall software. 
+                                WatchGuard includes secure Wi-Fi, multi-factor authentication, and network intelligence products 
+                                and services.</p>
+                             </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="content-pic3">
+                                <img src="cisco.jpg" alt="Network Simulation Software">
+                            </div>
+                        </td>
+                        <td>
+                            <h5>Network Management Software</h5>
+                            <p class="laman-2">Network Simulation Software: Simulates network environments for testing and educational purposes.</p>
+                            <p class="laman-2">Example: Packet Tracer, a cross-platform visual simulation tool designed by 
+                                Cisco Systems that allows users to create network topologies and imitate modern computer networks 
+                                without the need of hardware. </p>
+                        </td>
+                    </tr>
+                </table>
+                   
+            </p>
+                <hr>
+                <h3 class="topic-sub">Basic Network Security</h3>
+                <p class="laman-1">Possessing a fundamental understanding of network security is crucial to prevent viruses or 
+                    unauthorized intrusions that could potentially harm your devices and compromise your personal safety.</p>
+                <div class="security">
+                    <img src="security.gif">
+                </div>
+                <br>
+                <h4>Transmission Media Security:</h4>
+                <p class="laman-1">For wired networks, implement robust encryption like WPA2 to ensure data confidentiality. 
+                    Wireless networks, reliant on radio waves or infrared signals, benefit from strong encryption (e.g., WPA3), 
+                    regular password updates, and firewalls for access control, mitigating unauthorized access risks.</p>
+                <h4>Hardware Security</h4>
+                    <p class="laman-1">Secure network hardware components by changing default router credentials, enabling 
+                        strong authentication, and regular firmware updates. Switches enhance security with VLANs for traffic 
+                        segregation and disabled unused ports. Servers require robust access controls, software updates, and 
+                        intrusion detection. Firewalls, acting as gatekeepers, filter traffic, establish rules, and undergo regular 
+                        updates for threat prevention.</p>
+                <div class="security2">
+                    <img src="NetSecurity.gif">
+                </div>
+                <h4>Software Security</h4>
+                    <p class="laman-1">Network management software should utilize secure communication, undergo regular updates, 
+                        and enforce strong authentication. Network security software requires frequent updates for threat prevention. 
+                        Network simulation software, for testing, should replicate actual security configurations.</p>
+                    <br><br>
+                <h4>Simple Things You Can Do</h4>
+                    <p class="laman-1">Learn how to keep things safe online by following simple rules, like using strong passwords 
+                        and being aware of the dangers of unauthorized access.</p>
+                        <br><br>
+                    <div class="robot">
+                        <img src="Robot.png">
+                    </div>
+                    <h4>REMEMBER!</h4>
+                    <p class="laman-1">The integration of transmission media, hardware, and software not only forms the foundational 
+                        structure of a network but also serves as a powerful tool for ensuring network security. These components act 
+                        as both the building blocks that construct the network and the means by which security is reinforced, creating 
+                        a resilient and protective environment for effective communication and optimized performance. Moreover, the more 
+                        awareness you earn and apply in network learning, the more safety you gain—underscored by the principle that 
+                        knowledge without application is akin to a network without security measures.
+                    </p><br><br>
+        </div> 
+    <div class="button-container">
+        <div class="topic-button">
+            <a href="netarch.html" class="button" id="prevButton">
+                <i class="fas fa-arrow-left"></i>
+                <span class="tooltip">Previous</span>
+            </a>
+        </div>
+        <div class="back-to-top">
+            <a href="#"><i class="fas fa-arrow-up"></i> Back to Top</a>
+        </div>
+        <div class="topic-button">
+            <a href="index.html" class="button" id="nextButton">
+                <i class="fas fa-arrow-right"></i>
+                <span class="tooltip">Back to Homepage</span>
+            </a>
+        </div>
+    </div>  
+    </section>
+    <footer class="footer">
+        <div>
+            <br>
+            <hr>
+                <p class="footer-address"> SkyNetics &copy; 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

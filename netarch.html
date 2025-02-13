@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Network Architecture</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo"><img src="SkyNetics_.png" alt="Logo"></a>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                    <li><a href="about.html"><i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Content-->
+        <div class="content-lang">
+            <h2>Topic 2. Network Architecture</h2>
+            <br><br>
+            <h3 class="intro">Your Digital Cityscape</h3>
+                <div class="intro-1">
+                    <img src="NetArchitecture.gif">
+                </div>
+            <p class="sub">Imagine your digital world as a bustling city where devices are like buildings, and networks 
+                are the roads and bridges connecting them.</p>
+            <p class="sub">From your personal digital neighborhood to the vast citywide connections, network architectures 
+                shape the landscapes we navigate daily. And just like a city has different areas, from your personal space 
+                (PAN) to the city outskirts (WAN), networks come in sizes that suit their roles.</p>
+            <p class="sub">It's time to discover the digital cityscape and how networks, like city planners, design connectivity that fits our everyday lives.</p>
+                <hr>
+                <h3 class="topic-sub">Network Architecture Design</h3>
+                <br>
+                <p class="laman-1">Network architecture is the blueprint governing the structured interaction among network services, devices, and clients. It defines layout, protocols, and connectivity patterns, forming a critical foundation for digital environments. Each architecture type has unique security considerations, connectivity requirements, and service provisions, making it essential for managing and designing digital ecosystems. Key considerations include node distance, network management, and data exchange protocols, collectively ensuring efficient intra-network communication and robust security against threats.
+                </p>
+                <br>
+                <!--Types of Network Architecture by Distance -->
+                <h4>Types of Network Architecture by Distance</h4>
+                <table>
+                    <tr>
+                      <td>
+                        <div class="area-networks">
+                        <img src="area-network.png" alt="PAN">
+                        </div>
+                      </td>
+                      <td>
+                        <br>
+                        <p class="laman-1">Wide Area Network (WAN): It spans extensive distances, connecting multiple LANs or MANs over telecommunication lines. It forms the backbone for large-scale connectivity, using technologies like the internet, leased lines, or satellite links to facilitate seamless data exchange and resource sharing across diverse geographical locations.</p><br><br>
+
+                        <p class="laman-1">Metropolitan Area Network (MAN): It covers a larger geographical area, often serving an entire city or large campus. MANs use technologies like WiMAX for high-speed connectivity over a metropolitan region, supporting applications such as internet access and video conferencing.</p><br><br>
+                        
+                        <p class="laman-1">Local Area Network (LAN): It operates within a confined geographical area, like a building or campus. LANs, commonly found in school labs or offices, enable high-speed data transfer and resource sharing among connected devices, fostering efficient collaboration on a localized scale.</p><br><br>
+                        
+                        <p class="laman-1">Home Area Network (HAN): It is essentially a LAN within a home, connecting all household digital devices. It enables integration and communication between smart appliances, entertainment systems, and security devices, contributing to the concept of a "smart home."</p><br><br>
+                        
+                        <p class="laman-1">Personal Area Network (PAN): It connects devices in close proximity to an individual, using wireless technologies like Bluetooth and Wi-Fi. It facilitates seamless communication and data exchange within a person's immediate personal space, including devices such as smartphones, tablets, and laptops.</p><br>
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  
+                <!--Peer-to-Peer (P2P) and Client-Server -->
+                <h4>Types of Network Architectures: Peer-to-Peer (P2P) and Client-Server</h4><br>
+                <p class="laman-1">Networks are structured in various ways to manage and control the flow of data and communication. Two common types of network architectures are:</p><br>
+                <table>
+                <tr>
+                    <td>
+                        <div class="content-pic2">
+                            <img src="p2p-icon.png" alt="Peer-to-Peer (P2P)">
+                        </div>
+                    </td>
+                    <td>
+                        <p class="laman-1">In a Peer-to-Peer network, all devices, referred to as "peers," possess equal capabilities and responsibilities. This decentralized architecture eliminates the need for a central server, allowing direct communication between devices. The distribution of resources in P2P networks enhances resilience, as the failure of one node does not significantly impact the entire network.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="content-pic2">
+                            <img src="client-server.png" alt="Client-Server">
+                        </div>
+                    </td>
+                    <td>
+                        <p class="laman-1"> Client-Server architecture involves some computers (servers) providing services, while other computers (clients) utilize those services. Servers typically have more processing power and storage, handling the majority of the workload. While centralization simplifies network maintenance, it introduces a single point of failure.</p>
+                    </td>
+                </tr>
+                </table>
+                <br><hr>
+                <!--Network Administration Levels and Protocols -->
+                <h3 class="topic-sub">Network Administration Levels and Protocols</h3><br>
+                <h4>Network Administration Levels:</h4><br>
+                <table>
+                    <tr>
+                        <td>
+                            <p class="laman-1">Central Administration: Tasks are centrally performed from one computer, a common feature in Client-Server networks. This centralized approach, exemplified by the client/server network, streamlines network management but introduces a potential single point of failure.</p>
+                        </td>
+                        <td>
+                            <div class="content-pic2">
+                                <img src="central.jpg" alt="Central Administration">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="laman-1">Local Administration: Configuration and maintenance are carried out on individual computers, typical in Peer-to-Peer networks (P2P). 
+                                In this decentralized model, each device manages its own resources, contributing to the flexibility and resilience of the network.</p>
+                        </td>
+                        <td>
+                            <div class="content-pic2">
+                                <img src="local.png" alt="Local Administration">
+                            </div>
+                        </td>
+                    </tr>
+                    </table>  
+                <h4>Ethernet Protocols and Network Protocols:</h4>
+                <div class="ethernet">
+                    <img src="etnet.PNG">
+                </div>
+                <br>
+                <p class="laman-1">Ethernet, a widely adopted communication technology, operates based on specific protocols. In wired networks, 
+                    adherence to IEEE 802.3 standards is the norm, offering options like gigabit Ethernet for high-speed data transmission. Conversely, 
+                    wireless networks, such as Wi-Fi, adhere to IEEE 802.11 standards, providing a framework for efficient wireless communication.<br></p>
+                <p class="laman-1">The broader context of network communication involves various protocols that govern how devices interact within a network. 
+                    These protocols, collectively known as network protocols, establish the rules for formatting, addressing, transmitting, and receiving 
+                    data across devices. Key among these protocols are:</p>
+                <p class="laman-1">1. Internet Protocol (IP): Responsible for addressing and routing data packets, IP ensures their successful traversal across
+                     networks to reach the intended destination.</p>
+                <p class="laman-1">2. Transmission Control Protocol (TCP): Ensuring the reliable delivery of data across a network, TCP breaks down information
+                     into packets, transmits them, and reassembles them at their destination to maintain data integrity.</p>
+                <p class="laman-1">3. User Datagram Protocol (UDP): In contrast to TCP, UDP prioritizes speed over perfect accuracy by not guaranteeing the 
+                    delivery of packets. This makes it ideal for applications like live streaming and gaming where real-time responsiveness is critical.<br><br><br></p>
+                <div class="robot">
+                    <img src="Robot.png">
+                </div>
+                <h4>REMEMBER!</h4>
+                <p class="laman-1">Comprehending and incorporating these elements is crucial for establishing robust and dependable 
+                    communication frameworks in both wired and wireless network environments. Together, they constitute the 
+                    foundation of contemporary networking, guaranteeing smooth data transmission and connectivity across a variety 
+                    of devices and technologies. The network architecture opens up limitless possibilities to optimize network 
+                    utilization positively, allowing for the discovery of designs that best align with the growing demands of 
+                    information technology.</p>
+                </p>
+            </p><br><br><br>
+        </div> 
+        <div class="button-container">
+            <div class="topic-button">
+                <a href="netfun.html" class="button" id="prevButton">
+                    <i class="fas fa-arrow-left"></i>
+                    <span class="tooltip">Previous</span>
+                </a>
+            </div>
+            <div class="back-to-top">
+                <a href="#"><i class="fas fa-arrow-up"></i> Back to Top</a>
+            </div>
+            <div class="topic-button">
+                <a href="netcom.html" class="button" id="nextButton">
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="tooltip">Next</span>
+                </a>
+            </div>
+        </div> 
+    </section>
+    <footer class="footer">
+        <div>
+            <br>
+            <hr>
+                <p class="footer-address"> SkyNetics &copy; 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+ 
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
